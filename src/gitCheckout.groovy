@@ -1,9 +1,9 @@
-package demo
+
 
 def gitCheckout(){
 
  
- git 'https://github.com/Somyagaur06/jenkinsDemo.git'
+ git url: "https://github.com/Somyagaur06/jenkinsDemo.git"
   
   
   
