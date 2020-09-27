@@ -4,17 +4,13 @@ def call(){
 
 node{
  
+
+ 
+   new gitCheckout().gitCheckout();
   
-
-
- stage("Git Checkout")
- {
- 
-   def u=new gitCheckout();
-  u.gitCheckout();
  
  
- }
+ 
 
 
 
