@@ -3,9 +3,11 @@
 def gitCheckout(){
 
  
-sh " git url: "https://github.com/Somyagaur06/jenkinsDemo.git" "
+ stage("Git checkout"){
+ 
+ git url: "https://github.com/Somyagaur06/jenkinsDemo.git" 
   
-  
+ }
   
 }
 
