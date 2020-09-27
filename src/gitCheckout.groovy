@@ -3,7 +3,7 @@
 def gitCheckout(){
 
  
- git url: "https://github.com/Somyagaur06/jenkinsDemo.git"
+sh " git url: "https://github.com/Somyagaur06/jenkinsDemo.git" "
   
   
   
