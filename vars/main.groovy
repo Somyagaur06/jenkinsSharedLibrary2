@@ -6,7 +6,7 @@ node{
  
 
  
-   new gitCheckout().gitCheckout();
+   new gitCheckout()
   
  
  
