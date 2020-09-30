@@ -1,4 +1,4 @@
-def gitCheckout(){
+def call(){
 
  
  stage("Git checkout"){
