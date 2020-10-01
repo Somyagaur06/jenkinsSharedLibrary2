@@ -1,5 +1,6 @@
-def call(){
+def demo(){
 
+ node{
  
  stage("Git checkout"){
  
@@ -7,6 +8,6 @@ def call(){
   
  }
   
-}
+ }}
 
 return this
